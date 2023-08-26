@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="count.css">
+</head>
+
+<body>
+    <div class="main-con">
+        <h2 class="heading">Count Down Timer</h2>
+        <div class="main">
+
+            <div class="data-icon hours-box">
+                <p class="h-para">Hours</p>
+                <h1 id="hour">05</h1>
+                <div class="icons ">
+                    <button id="upHour" class="innite-btn"><i class="fa-regular fa-circle-up"></i></button>
+                    <button id="downHour" class="innite-btn"><i class="fa-regular fa-circle-down"></i></button>
+                </div>
+            </div>
+            <div class="data-icon minute-box">
+                <p class="m-para">Minutes</p>
+                <h1 id="minute">00</h1>
+                <div class="icons">
+                    <button id="upMin" class="innite-btn"><i class="fa-regular fa-circle-up"></i></button>
+                    <button id="downMin" class="innite-btn"><i class="fa-regular fa-circle-down"></i></button>
+                </div>
+            </div>
+            <div class="data-icon seconds-box">
+                <p class="s-para">Seconds</p>
+                <h1 id="seconds">30</h1>
+                <div class="icons">
+                    <button id="upSec" class="innite-btn"><i class="fa-regular fa-circle-up"></i></button>
+                    <button id="downSec" class="innite-btn"><i class="fa-regular fa-circle-down"></i></button>
+                </div>
+            </div>
+
+        </div>
+        <div>
+            <button id="stopBtn" class="stop">Stop</button>
+            <button id=restartBtn class="restart">Restart</button>
+            <button id="startBtn" class="start">Start</button>
+        </div>
+
+    </div>
+    <script src="https://kit.fontawesome.com/ca5100eb93.js" crossorigin="anonymous"></script>
+    <script src="count.js"></script>
+</body>
+
+</html>
